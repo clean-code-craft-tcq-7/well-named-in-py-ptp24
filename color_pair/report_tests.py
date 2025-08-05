@@ -16,7 +16,7 @@ def test_reference_manual():
     
     # Count the number of rows (header + 25 pairs + title + separator)
     rows = manual.strip().split('\n')
-    assert len(rows) == 29  # 25 pairs + 4 header lines
+    assert len(rows) == 30  # 25 pairs + 5 header lines
     
     print("Reference manual test passed")
 
